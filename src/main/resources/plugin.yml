@@ -1,0 +1,13 @@
+name: QAVEntityRepair
+version: 1.1.0
+main: io.github.remarcme.qavfix.QAVEntityRepair
+api-version: '1.21'
+depend: [QualityArmoryVehicles2]
+description: Repairs stale QAV entity references after entity reloads.
+commands:
+  qavrepair:
+    description: Repairs loaded QAV entity references and reports totals.
+    permission: qaventityrepair.admin
+permissions:
+  qaventityrepair.admin:
+    default: op
